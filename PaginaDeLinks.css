@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-image: linear-gradient(to right, #D1BAFF, #6B3FB7);
+}
+.caixa{
+    width: 1200px;;
+    text-align: center;
+    padding: 100px;
+}
+.logorabiscando {
+    width: 300px;
+    border-radius: 50%;
+    text-align: center; 
+    padding: 30px; 
+    
+}
+h1{
+    font-size: 70px;
+    color: #000000;
+    text-align: center;
+    text-shadow: 3px 3px 3px #3a2361
+}
+#tiktok, #whatsapp, #site, #instagram{
+    margin: 3px;
+    max-width: 60px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#tiktok{
+    max-width: 65px;
+    
+    
+}
+
+
+#whatsapp{
+    max-width:65px ;
+   
+}
+#site{
+    margin: 3px;
+   
+    
+    
+}
+#instagram{
+    margin: 3px;
+    
+    
+
+}
+
+#link1, #link2, #link3, #link4{
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #6B3FB7;
+    text-align: center;
+    background-image: linear-gradient(to right, #A3EAF5, #DFFAF6);
+}
+#semSublinhado{
+    text-decoration: none;
+    font-weight: bold;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+}
+@media (width <= 600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .logorabiscando {
+        width: 180px;
+        border-radius: 50%;
+        text-align: center; 
+        padding: 30px; 
+    }
+    #link1, #link2, #link3, #link4{
+        font-size: 15px;
+        padding: 15px;
+        border-radius: 30px;
+        box-shadow: 10px 10px 10px #6B3FB7;
+        text-align: center;
+        background-image: linear-gradient(to right, #A3EAF5, #DFFAF6);
+    }
+    #tiktok, #whatsapp, #site, #instagram{
+        margin: 3px;
+        max-width: 30px;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .caixa{
+        width: 600px;;
+        text-align: center;
+        padding: 100px;
+    }
+    body{
+        width: 500px;
+        background-image: linear-gradient(to right, #D1BAFF, #6B3FB7);
+    }
+    h1{
+        font-size: 40px;
+        color: #000000;
+        text-align: center;
+        text-shadow: 3px 3px 3px #3a2361
+    }
+}
