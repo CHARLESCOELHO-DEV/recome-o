@@ -68,7 +68,7 @@ h1{
     font-weight: bold;
     /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
 }
-@media (width <= 600px){
+@media (width <= 480px){
     *{
         margin: 0;
         padding: 0;
